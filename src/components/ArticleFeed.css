@@ -1,0 +1,23 @@
+/* ArticleFeed.css */
+.article-card {
+    transition: transform 0.2s, box-shadow 0.2s;
+    border-radius: 8px;
+    overflow: hidden; /* Ensure content doesn’t overflow */
+    background-color: white; /* Add a white background to cards */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.article-card:hover {
+    transform: scale(1.05); /* Slightly enlarge the card */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+}
+
+.article-image {
+    width: 100%; /* Make image responsive */
+    height: 200px; /* Fixed height for images */
+    object-fit: cover; /* Maintain aspect ratio */
+}
+
+.article-content {
+    padding: 15px; /* Add some padding for better layout */
+}
