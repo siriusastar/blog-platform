@@ -32,9 +32,17 @@ A simple and dynamic web application that allows users to read articles, bookmar
    npm start
 5. **Open your browser and go to**: ![(http://localhost:3000)](http://localhost:3000)
 
+## Usage
+1. **Viewing Articles:** The application will automatically display articles fetched from the JSONPlaceholder API. Users can view a list of articles with titles, descriptions, and images.
+2. **Bookmarking Articles:** Users can bookmark their favorite articles. Bookmarked articles can be found in the "Your Bookmarks" section.
+3. **Pagination:** Navigate through articles using the pagination controls at the bottom of the article list.
+4. **Sorting:** Use the sorting options to organize articles based on selected criteria.
+
+
+
 ## Project Structure
    ```bash
-         blog-platform/
+blog-platform/
 │
 ├── public/
 │   ├── index.html          # Main HTML file for the application
@@ -56,4 +64,6 @@ A simple and dynamic web application that allows users to read articles, bookmar
 │
 ├── package.json             # Project metadata and dependencies
 └── README.md                # Project documentation
+
+
 
